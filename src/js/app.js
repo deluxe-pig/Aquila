@@ -7,6 +7,8 @@ import ReactDOM from 'react-dom';
 import Camera from './components/Camera';
 import Cursor from './components/Cursor';
 import Sky from './components/Sky';
+import starData from './data/starsData';
+import Star from './components/Star';
 
 class BoilerplateScene extends React.Component {
   constructor(props) {
