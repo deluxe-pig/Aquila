@@ -1,4 +1,4 @@
-[
+module.exports = [
    {
       "id":1,
       "label":"11 Com",
