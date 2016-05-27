@@ -1,7 +1,7 @@
 {
-  "name": "aframe-react-boilerplate",
+  "name": "Aquila",
   "version": "1.0.0",
-  "description": "Boilerplate for using A-Frame (VR) with React.",
+  "description": "VR experience of our local star system.",
   "dependencies": {
     "aframe": "^0.2.0",
     "aframe-react": "^1.2.0",
@@ -15,12 +15,13 @@
     "ghpages": "npm run preghpages && ghpages -p gh-pages",
     "gh-pages": "npm run ghpages",
     "serve": "cd src && python -m SimpleHTTPServer 5555",
+    "serve-prod": "cd src && python -m SimpleHTTPServer 80",
     "serve-js": "webpack-dev-server --content-base src --progress --watch --history-api-fallback --inline --hot",
     "start": "npm run serve-js && npm run serve"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ngokevin/aframe-react-boilerplate.git"
+    "url": "git+https://github.com/deluxe-pig/Aquila"
   },
   "keywords": [
     "aframe",
@@ -31,12 +32,12 @@
     "mozvr",
     "webvr"
   ],
-  "author": "Kevin Ngo <kngo@mozilla.com>",
+  "author": "deluxe-pig",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ngokevin/aframe-react-boilerplate/issues"
+    "url": "https://github.com/deluxe-pig/Aquila/issues"
   },
-  "homepage": "https://github.com/ngokevin/aframe-react-boilerplate#readme",
+  "homepage": "http://www.aquilavr.com/",
   "devDependencies": {
     "babel": "^6.3.13",
     "babel-core": "^6.3.15",
