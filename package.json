@@ -16,7 +16,7 @@
     "gh-pages": "npm run ghpages",
     "serve": "cd src && python -m SimpleHTTPServer 5555",
     "serve-js": "webpack-dev-server --content-base src --progress --watch --history-api-fallback --inline --hot",
-    "start": "webpack-dev-server --content-base src --progress --watch --history-api-fallback --inline --hot && cd src && python -m SimpleHTTPServer 5555"
+    "start": "npm run serve-js && npm run serve"
   },
   "repository": {
     "type": "git",
