@@ -6,7 +6,7 @@ var visitCount = 0;
 // Serve index and styles.css
 app.get('/', function(req, res) {
   visitCount += 1;
-  console.log('visits = ' visitCount);
+  console.log('visits = ', visitCount);
   res.sendFile(path.resolve('./src/index.html'))
 });
 app.get('/styles/styles.css', function(req, res) {
