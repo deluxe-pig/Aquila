@@ -9,6 +9,9 @@ app.get('/', function(req, res) {
 app.get('/styles/styles.css', function(req, res) {
   res.sendFile(path.resolve('./src/styles/styles.css'))
 });
+app.get('/dist/bundle.js', function(req, res) {
+  res.sendFile(path.resolve('./src/dist/bundle.js'))
+});
 
 var server = http.createServer(app);
 // Set port to 80 so that www.aquilavr.com will direct properly instead of www.aquilavr.com:8080
